@@ -1,27 +1,44 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: poppins, sans-serif;
+	line-height: 1.5;
 }
 
-.main-header {
-    background: blue;
-    padding: 1em 0;
-
+.main-nav {
+	display: flex;
+	background: blue;
 }
 
+.main-nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.main-nav ul {
+	display: flex;
+}
+.main-nav a {
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
 .name {
-    margin: 0;
+	margin: 0;
 }
 
 .container {
-    width: 70%;
-    margin: 0 auto;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .items {
-    background: white;
-    color: black;
+	background: white;
+	color: black;
 }
