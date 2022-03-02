@@ -1,15 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	font-family: poppins, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
+	font-size: 16px;
+	color: black;
+	background-color: #effffd;
+}
+
+img {
+	max-width: 95%;
+}
+
+h1,
+h2 {
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 
 .main-nav {
-	display: flex;
-	background: blue;
+	background: #effffd;
+	color: black;
+	height: 80px;
+}
+
+.name {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.main-nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .main-nav .container {
@@ -22,23 +61,57 @@ body {
 .main-nav ul {
 	display: flex;
 }
-.main-nav a {
-	color: white;
+
+.main-nav ul li {
+	margin-left: 40px;
 }
 
-ul {
-	list-style-type: none;
-}
-.name {
-	margin: 0;
-}
-
-.container {
-	width: 70%;
+.header {
+	max-width: 1300px;
+	height: 300px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
-.items {
-	background: white;
-	color: black;
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	flex: 1;
+}
+
+.header img {
+	max-width: 100%;
+}
+
+.header .head-img {
+	display: flex;
+	width: 500px;
+	height: 200px;
+	background: url("../images/Florida2.jpg");
+	justify-content: center;
+	align-items: center;
+}
+
+.item {
+	display: flex;
+	width: 600px;
+	height: 200px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 75px;
+}
+
+section .container {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background-color: white;
+}
+
+.container .boxes {
+	display: flex;
 }
