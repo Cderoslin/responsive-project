@@ -9,7 +9,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
-	font-size: 16px;
+	font-size: 14px;
 	color: black;
 	background-color: #effffd;
 }
@@ -31,14 +31,18 @@ ul {
 
 li {
 	background-color: white;
-	margin: 2px;
-	padding: 5px 0 5px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3px;
+	padding: 10px 10px;
+	width: 95vw;
 }
 
 .name {
 	font-size: x-large;
 	font-weight: bold;
-	margin-top: 20px;
+	margin: 20px 20px;
 }
 
 .main-nav a {
@@ -59,6 +63,7 @@ li {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 40px;
 }
 
 .header .head-img {
@@ -68,6 +73,11 @@ li {
 	background: url("../images/Florida2.jpg");
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 30px;
+}
+
+header p {
+	text-align: center;
 }
 
 section .container {
@@ -78,28 +88,45 @@ section .container {
 	background-color: white;
 }
 
-.box p {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+section p {
+	text-align: center;
+	padding: 20px;
 }
 
 .footer {
+	text-align: center;
+}
+
+section img {
+	width: 280px;
+	height: 150px;
+	margin: 20px 0 20px;
+}
+
+section .box {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
-section img {
-	width: 280px;
-	height: 150px;
-	margin: 40px 0 40px 0;
+section .item6 {
+	margin-bottom: 35px;
 }
 
-section .box {
+footer h2 {
+	padding: 55px 0 25px;
+	font-size: 16px;
+}
+
+footer p {
+	font-size: 14px;
+	padding-top: 25px;
+}
+
+.second .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
