@@ -9,7 +9,7 @@ body {
 	text-align: center;
 	line-height: 1.5;
 	font-size: 18px;
-	color: rgb(96, 96, 96);
+	color: #203239;
 	background-color: #effffd;
 }
 
@@ -31,7 +31,7 @@ ul {
 	text-transform: uppercase;
 	padding: 3px 0px;
 	font-size: 16px;
-	color: rgb(96, 96, 96);
+	color: rgb(6, 76, 90);
 }
 
 .main-nav .name {
@@ -60,7 +60,7 @@ ul {
 }
 
 section {
-	background-color: white;
+	background-color: #d1e0df;
 	margin-top: 45px;
 	padding-top: 45px;
 	margin-bottom: 45px;
@@ -128,7 +128,11 @@ section p {
 	font-weight: 702;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: rgb(96, 96, 96);
+	color: rgb(6, 76, 90);
+	background-color: #c5dad7;
+	margin: 13px;
+	padding: 2px 17px;
+	border-radius: 5%;
 }
 
 @media screen and (max-width: 768px) {
@@ -137,7 +141,7 @@ section p {
 	}
 
 	.main-nav li {
-		background-color: white;
+		background-color: #c5dad7;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -147,16 +151,17 @@ section p {
 	}
 }
 
-@media screen and (max-width: 768px) {
-	.bottom-nav2 {
-		display: none;
-	}
-}
-
 @media screen and (min-width: 768px) {
 	nav .nav {
 		display: flex;
 		flex-direction: row;
+	}
+
+	.main-nav li {
+		background-color: #c5dad7;
+		margin: 13px;
+		padding: 2px 17px;
+		border-radius: 5%;
 	}
 
 	header .header-img {
@@ -207,7 +212,11 @@ section p {
 		text-transform: uppercase;
 		padding-left: 30px;
 		font-size: 16px;
-		color: rgb(96, 96, 96);
+		color: rgb(6, 76, 90);
+		background-color: #c5dad7;
+		margin: 13px;
+		padding: 2px 17px;
+		border-radius: 5%;
 	}
 
 	.bottom-nav2 .bottom-container {
