@@ -135,23 +135,15 @@ section p {
 	border-radius: 5%;
 }
 
-@media screen and (max-width: 768px) {
-	.bottom-nav2 {
-		display: none;
-	}
-
-	.main-nav li {
-		background-color: #c5dad7;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 3px;
-		padding: 10px 10px;
-		width: 95vw;
-	}
+.bottom-nav2 {
+	display: none;
 }
 
 @media screen and (min-width: 768px) {
+	.bottom-nav2 {
+		display: contents;
+	}
+
 	nav .nav {
 		display: flex;
 		flex-direction: row;
